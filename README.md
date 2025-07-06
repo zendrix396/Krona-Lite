@@ -6,7 +6,7 @@ A minimalist, background-oriented to-do application for focus.
 
 <h3>
 
-[Download Latest Release (v0.1.1)](https://github.com/zendrixate/krona-lite/releases)
+[Download Latest Release (v0.1.1)]([https://github.com/zendrixate/krona-lite/releases](https://github.com/zendrix396/Krona-Lite/releases/tag/v0.1.0))
 
 </h3>
 
@@ -52,7 +52,7 @@ Press your custom hotkey (`Ctrl+Shift+K` by default) to toggle your to-do list, 
 
 ## Installation
 
-The latest release is available on the [GitHub Releases](https://github.com/zendrixate/krona-lite/releases) page.
+The latest release is available on the [GitHub Releases]([https://github.com/zendrixate/krona-lite/releases](https://github.com/zendrix396/Krona-Lite/releases/tag/v0.1.0)) page.
 
 1.  Download `Krona-Lite_0.1.1_x64-setup.exe`.
 2.  Run the installer. The app will start automatically in the background.
