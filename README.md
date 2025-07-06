@@ -1,7 +1,57 @@
-![Screenshot 2025-07-06 232414](https://github.com/user-attachments/assets/503548c5-298f-4fce-8921-fbe77805bb35)
-![Screenshot 2025-07-06 232400](https://github.com/user-attachments/assets/4d516353-6202-4da1-afca-4b7d2abbf547)
+<div align="center">
 
+# Krona-Lite
 
-![Screen Recording 2025-07-06 232452](https://github.com/user-attachments/assets/6382d43f-f59b-4526-94eb-8fb43b2d46df)
-![Screen Recording 2025-07-06 232715](https://github.com/user-attachments/assets/778406f0-408d-4281-92b7-49409570fec3)
-![Screen Recording 2025-07-06 232826](https://github.com/user-attachments/assets/86fdd0bc-801f-4daf-8085-ea7aaae9e16a)
+A minimalist, background-oriented to-do application for focus.
+
+<h3>
+
+[Download Latest Release](https://github.com/zendrixate/krona-lite/releases)
+
+</h3>
+
+</div>
+
+---
+
+Krona-Lite is a tiny utility that runs in the background, designed to keep your tasks front-and-center without the clutter of a traditional application. It's built for speed, focus, and simplicity.
+
+<img src="readme-media/image1.png" alt="Krona-Lite UI" width="400"/>
+_Clean interface that stays out of your way._
+
+<img src="readme-media/image2.png" alt="Krona-Lite with completed tasks" width="400"/>
+_Completed tasks are neatly separated._
+
+## Features
+
+- **Minimalist UI:** A clean, borderless window that runs in the background.
+- **Persistent Data:** Tasks are automatically saved to a `todos.json` file in your `Documents/Krona` folder.
+- **Always on Top:** Pin the window to keep it visible over all other applications.
+- **Task Timers:** Track the time spent on each individual task.
+- **Dynamic Sizing:** The window automatically adjusts its height to fit your tasks.
+- **Keyboard Navigation:** Move the window pixel by pixel using `Ctrl + Shift + Arrow Keys`.
+- **Drag to Move:** Use the subtle handle at the top of the window to move it with your mouse.
+- **Drag to Reorder:** Reorganize your active and completed tasks by dragging them.
+
+### Dynamic Interaction Demo
+This demonstrates the drag-to-reorder, dynamic window sizing, and task focus features.
+<video src="readme-media/video1.mp4" controls title="Drag and drop, focus, and resizing demo"></video>
+
+## Installation
+
+The latest release is available on the [GitHub Releases](https://github.com/zendrixate/krona-lite/releases) page.
+
+1.  Download `Krona-Lite_0.1.0_x64-setup.exe`.
+2.  Run the installer. The app will start automatically in the background.
+
+## Usage
+
+-   **Show/Hide Window:** Press the `END` key.
+-   **Move Window (Keyboard):** `Ctrl + Shift + Arrow Keys`.
+-   **Move Window (Mouse):** Click and drag the handle at the top of the window.
+-   **Pin Window:** Click the pin icon in the header.
+-   **Add Task:** Click the `+` icon.
+-   **Edit Task:** Double-click the task text.
+-   **Complete Task:** Click the checkbox.
+-   **Track Time:** Hover over a task and click the watch icon.
+-   **Delete Task:** Hover over a task and click the trash icon.
