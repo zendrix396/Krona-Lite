@@ -1,6 +1,6 @@
 [package]
 name = "krona-lite"
-version = "0.1.0"
+version = "0.1.1"
 description = "A minimal to-do application"
 authors = ["zendrixate"]
 license = ""
