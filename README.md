@@ -6,7 +6,7 @@ A minimalist, background-oriented to-do application for focus.
 
 <h3>
 
-[Download Latest Release](https://github.com/zendrixate/krona-lite/releases)
+[Download Latest Release (v0.1.1)](https://github.com/zendrixate/krona-lite/releases)
 
 </h3>
 
@@ -16,7 +16,7 @@ A minimalist, background-oriented to-do application for focus.
 
 Krona-Lite is a tiny utility designed for an at-a-glance overview of your tasks. It runs quietly in the background, acting like a super-powered sticky note that appears and disappears instantly with a single keypress.
 
-Press the `END` key to toggle your to-do list, making it perfect for quick checks and hassle-free time tracking without the need for heavy, distracting applications.
+Press your custom hotkey (`Ctrl+Shift+K` by default) to toggle your to-do list, making it perfect for quick checks and hassle-free time tracking without the need for heavy, distracting applications.
 
 <table>
   <tr>
@@ -35,30 +35,33 @@ Press the `END` key to toggle your to-do list, making it perfect for quick check
 
 ## Features
 
-- **Minimalist UI:** A clean, borderless window that runs in the background.
-- **Persistent Data:** Tasks are automatically saved to a `todos.json` file in your `Documents/Krona` folder.
-- **Always on Top:** Pin the window to keep it visible over all other applications.
-- **Task Timers:** Track the time spent on each individual task.
-- **Dynamic Sizing:** The window automatically adjusts its height to fit your tasks.
-- **Drag to Move:** Use the subtle handle at the top of the window to move it with your mouse.
-- **Drag to Reorder:** Reorganize your active and completed tasks by dragging them.
+-   **Customizable Title:** Double-click the title (defaults to "Krona") to edit it.
+-   **Total Time Display:** See the total focused time from all tasks, updated in real-time.
+-   **Advanced Hotkey System:** Set any key combination (`Ctrl+Shift+K` by default) to toggle the app.
+-   **Always on Top:** The app stays on top by default, with no need for a pin button.
+-   **Persistent Data:** Tasks are automatically saved to `Documents/Krona/todos.json`.
+-   **Task Timers:** Track time on individual tasks, with only one timer running at a time.
+-   **Dynamic Sizing:** The window automatically adjusts its height to fit your tasks.
+-   **Drag to Move & Reorder:** Use the top handle to move the window, and drag tasks to reorder them.
 
 ### Dynamic Interaction Demo
 <video src="https://github.com/user-attachments/assets/896bd87a-b500-4264-aaa7-d9210a59ac3f" autoplay loop muted playsinline title="Drag and drop, focus, and resizing demo"></video>
 
+### Custom Title & Hotkey
+<video src="https://github.com/user-attachments/assets/f9fd3cce-b755-4d12-a4e1-096b83891cc7" autoplay loop muted playsinline></video>
 
 ## Installation
 
 The latest release is available on the [GitHub Releases](https://github.com/zendrixate/krona-lite/releases) page.
 
-1.  Download `Krona-Lite_0.1.0_x64-setup.exe`.
+1.  Download `Krona-Lite_0.1.1_x64-setup.exe`.
 2.  Run the installer. The app will start automatically in the background.
 
 ## Usage
 
--   **Show/Hide Window:** Press the `END` key.
+-   **Show/Hide Window:** Press your custom hotkey (`Ctrl+Shift+K` by default).
 -   **Move Window:** Click and drag the handle at the top of the window.
--   **Pin Window:** Click the pin icon in the header.
+-   **Change Hotkey:** Click the "Hotkey" button at the bottom of the app.
 -   **Add Task:** Click the `+` icon.
 -   **Edit Task:** Double-click the task text.
 -   **Complete Task:** Click the checkbox.
@@ -78,3 +81,17 @@ Krona-Lite is built with a focus on simplicity and performance, using a modern, 
 *   **Data Persistence:**
     -   Task data is serialized to JSON and saved in `Documents/Krona/todos.json`.
     -   File I/O is handled on the Rust backend for performance and security.
+
+---
+
+## Contributing
+
+Contributions are welcome. This project follows a simple structure:
+
+-   `src/`: Contains all the Svelte frontend components and logic.
+-   `src-tauri/`: Contains all the Rust backend logic, including the Tauri setup and native features.
+-   `readme_media/`: Contains all the media assets for this README.
+
+## License
+
+This project is licensed under the MIT License.
