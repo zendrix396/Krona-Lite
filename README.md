@@ -14,13 +14,24 @@ A minimalist, background-oriented to-do application for focus.
 
 ---
 
-Krona-Lite is a tiny utility that runs in the background, designed to keep your tasks front-and-center without the clutter of a traditional application. It's built for speed, focus, and simplicity.
+Krona-Lite is a tiny utility designed for an at-a-glance overview of your tasks. It runs quietly in the background, acting like a super-powered sticky note that appears and disappears instantly with a single keypress.
 
-<img src="readme_media/image1.png" alt="Krona-Lite UI" width="400"/>
-_Clean interface that stays out of your way._
+Press the `END` key to toggle your to-do list, making it perfect for quick checks and hassle-free time tracking without the need for heavy, distracting applications.
 
-<img src="readme_media/image2.png" alt="Krona-Lite with completed tasks" width="400"/>
-_Completed tasks are neatly separated._
+<table>
+  <tr>
+    <td align="center">
+      <img src="readme_media/image1.png" alt="Krona-Lite UI" width="300"/>
+      <br>
+      <em>Clean interface that stays out of your way.</em>
+    </td>
+    <td align="center">
+      <img src="readme_media/image2.png" alt="Krona-Lite with completed tasks" width="300"/>
+      <br>
+      <em>Completed tasks are neatly separated.</em>
+    </td>
+  </tr>
+</table>
 
 ## Features
 
@@ -33,8 +44,8 @@ _Completed tasks are neatly separated._
 - **Drag to Reorder:** Reorganize your active and completed tasks by dragging them.
 
 ### Dynamic Interaction Demo
-This demonstrates the drag-to-reorder, dynamic window sizing, and task focus features.
 <video src="readme_media/video1.mp4" autoplay loop muted playsinline title="Drag and drop, focus, and resizing demo"></video>
+
 
 ## Installation
 
