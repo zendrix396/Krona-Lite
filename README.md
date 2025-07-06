@@ -44,7 +44,7 @@ Press the `END` key to toggle your to-do list, making it perfect for quick check
 - **Drag to Reorder:** Reorganize your active and completed tasks by dragging them.
 
 ### Dynamic Interaction Demo
-<video src="readme_media/video1.mp4" autoplay loop muted playsinline title="Drag and drop, focus, and resizing demo"></video>
+<video src="https://github.com/user-attachments/assets/896bd87a-b500-4264-aaa7-d9210a59ac3f" autoplay loop muted playsinline title="Drag and drop, focus, and resizing demo"></video>
 
 
 ## Installation
