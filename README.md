@@ -73,8 +73,6 @@ Krona-Lite is built with a focus on simplicity and performance, using a modern, 
     -   Uses Rust for the backend and the system's native WebView, resulting in a tiny, fast, and resource-efficient application.
 *   **Frontend:** [Svelte](https://svelte.dev/)
     -   A compiler-based framework that generates highly optimized, vanilla JavaScript for a snappy and responsive UI.
-*   **State Management:** [Svelte Stores](https://svelte.dev/tutorial/stores)
-    -   A simple, built-in solution for managing the application's reactive state.
 *   **Data Persistence:**
     -   Task data is serialized to JSON and saved in `Documents/Krona/todos.json`.
     -   File I/O is handled on the Rust backend for performance and security.
