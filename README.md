@@ -37,7 +37,7 @@ Press your custom hotkey (`End` by default) to toggle your to-do list, making it
 
 -   **Customizable Title:** Double-click the title (defaults to "Krona") to edit it.
 -   **Total Time Display:** See the total focused time from all tasks, updated in real-time.
--   **Advanced Hotkey System:** Set any key combination (`Ctrl+Shift+K` by default) to toggle the app.
+-   **Advanced Hotkey System:** Set any key combination (`End` by default) to toggle the app.
 -   **Always on Top:** The app stays on top by default, with no need for a pin button.
 -   **Persistent Data:** Tasks are automatically saved to `Documents/Krona/todos.json`.
 -   **Task Timers:** Track time on individual tasks, with only one timer running at a time.
