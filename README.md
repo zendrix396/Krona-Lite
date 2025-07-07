@@ -59,7 +59,7 @@ The latest release is available on the [GitHub Releases](https://github.com/zend
 
 ## Usage
 
--   **Show/Hide Window:** Press your custom hotkey (`Ctrl+Shift+K` by default).
+-   **Show/Hide Window:** Press your custom hotkey (`End` by default).
 -   **Move Window:** Click and drag the handle at the top of the window.
 -   **Change Hotkey:** Click the "Hotkey" button at the bottom of the app.
 -   **Add Task:** Click the `+` icon.
