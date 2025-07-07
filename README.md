@@ -16,7 +16,7 @@ A minimalist, background-oriented to-do application for focus.
 
 Krona-Lite is a tiny utility designed for an at-a-glance overview of your tasks. It runs quietly in the background, acting like a super-powered sticky note that appears and disappears instantly with a single keypress.
 
-Press your custom hotkey (`Ctrl+Shift+K` by default) to toggle your to-do list, making it perfect for quick checks and hassle-free time tracking without the need for heavy, distracting applications.
+Press your custom hotkey (`End` by default) to toggle your to-do list, making it perfect for quick checks and hassle-free time tracking without the need for heavy, distracting applications.
 
 <table>
   <tr>
