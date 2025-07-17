@@ -240,7 +240,7 @@ fn load_hotkey_from_file() -> String {
         }
     }
     
-    "Ctrl+Shift+KeyK".to_string() // Default fallback
+    "F4".to_string() // Default fallback
 }
 
 fn main() {

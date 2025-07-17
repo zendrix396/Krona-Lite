@@ -36,13 +36,13 @@ async function loadAppDataFromFile(): Promise<AppSettings> {
       if (Array.isArray(parsed)) {
         return {
           title: 'Krona',
-          hotkey: 'Ctrl+Shift+KeyK',
+          hotkey: 'F4',
           todos: parsed
         };
       }
       return {
         title: parsed.title || 'Krona',
-        hotkey: parsed.hotkey || 'Ctrl+Shift+KeyK',
+        hotkey: parsed.hotkey || 'F4',
         todos: parsed.todos || []
       };
     }
@@ -51,7 +51,7 @@ async function loadAppDataFromFile(): Promise<AppSettings> {
   }
   return {
     title: 'Krona',
-    hotkey: 'Ctrl+Shift+KeyK',
+    hotkey: 'F4',
     todos: []
   };
 }
@@ -59,7 +59,7 @@ async function loadAppDataFromFile(): Promise<AppSettings> {
 function createAppStore() {
   const { subscribe, set, update } = writable<AppSettings>({
     title: 'Krona',
-    hotkey: 'Ctrl+Shift+KeyK',
+    hotkey: 'F4',
     todos: []
   });
 

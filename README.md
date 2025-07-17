@@ -16,7 +16,7 @@ A minimalist, background-oriented to-do application for focus.
 
 Krona-Lite is a tiny utility designed for an at-a-glance overview of your tasks. It runs quietly in the background, acting like a super-powered sticky note that appears and disappears instantly with a single keypress.
 
-Press your custom hotkey (`Ctrl+Shift+K` by default) to toggle your to-do list, making it perfect for quick checks and hassle-free time tracking without the need for heavy, distracting applications.
+Press your custom hotkey (`F4` by default) to toggle your to-do list, making it perfect for quick checks and hassle-free time tracking without the need for heavy, distracting applications.
 
 <table>
   <tr>
@@ -37,7 +37,7 @@ Press your custom hotkey (`Ctrl+Shift+K` by default) to toggle your to-do list, 
 
 -   **Customizable Title:** Double-click the title (defaults to "Krona") to edit it.
 -   **Total Time Display:** See the total focused time from all tasks, updated in real-time.
--   **Advanced Hotkey System:** Set any key combination (`Ctrl+Shift+K` by default) to toggle the app.
+-   **Advanced Hotkey System:** Set any key combination (`F4` by default) to toggle the app.
 -   **Always on Top:** The app stays on top by default, with no need for a pin button.
 -   **Persistent Data:** Tasks are automatically saved to `Documents/Krona/todos.json`.
 -   **Task Timers:** Track time on individual tasks, with only one timer running at a time.
@@ -59,7 +59,7 @@ The latest release is available on the [GitHub Releases](https://github.com/zend
 
 ## Usage
 
--   **Show/Hide Window:** Press your custom hotkey (`Ctrl+Shift+K` by default).
+-   **Show/Hide Window:** Press your custom hotkey (`F4` by default).
 -   **Move Window:** Click and drag the handle at the top of the window.
 -   **Change Hotkey:** Click the "Hotkey" button at the bottom of the app.
 -   **Add Task:** Click the `+` icon.
